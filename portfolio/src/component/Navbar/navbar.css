@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-image: linear-gradient(url(../../../images/backgroundimage.jpg)); */
+    background-color: rgb(55, 32, 138);
+}
+.logo{
+    font-size: 40px;
+    text-align: left;   
+    font-family: cursive;
+    font-style: italic;
+    color: aliceblue;
+}
+.icon{
+    text-align: right;
+    font-size: 40px;
+    color: aliceblue;
+}
+.navlinks{
+    color: aliceblue;
+}
+.navlinks li{
+list-style: none;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
+}
+@media only screen and (max-width: 850px) {
+    .navlinks ul{
+        display: none;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+        margin-left: 95%;
+    }
+  }
